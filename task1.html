@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--
+    OSWEB is distributed under the terms of the GNU General Public License 3.
+    The full license should be included in the file COPYING,
+    or can be obtained from: http://www.gnu.org/licenses/gpl.txt
+-->
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   OSWeb
+  </title>
+   <script src="jatos.js"></script>
+   <script>
+  jatos.onLoad(function() {
+   // Start here with your code that uses jatos.js' variables and functions
+  });
+  </script>
+  <script src="/assets/javascripts/jatos.js">
+  </script>
+  <script id="parameters" type="text/javascript">
+   const params = JSON.parse('{"subject": "0,1", "fullscreen": true, "fullBackgroundColor": false, "welcomeText": "", "externalJS": [], "introClick": false}')
+   const osexpFile = "5b15f497-1565-0a27-e09a-512e619a24e5.osexp"
+   const jatosAssetsFolder = "5cff5ee0-0e0b-701e-0a20-d07cf9c1bcb0"
+   const jatosComponentHash = "5b15f497-1565-0a27-e09a-512e619a24e5"
+  </script>
+  <script src="js/osweb.e2a1ecbc2a3f5bc08c82.bundle.js" type="text/javascript">
+  </script>
+  <script src="js/vendors~osweb.ccbf0e07232eb9eb0239.bundle.js" type="text/javascript">
+  </script>
+  <script src="js/jatos.js" type="text/javascript">
+  </script>
+  <script src="js/_shared.js" type="text/javascript">
+  </script>
+  <link href="css/osweb.e2a1ecbc2a3f5bc08c82.bundle.css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="css/vendors~osweb.ccbf0e07232eb9eb0239.bundle.css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="css/jatos.css" media="all" rel="stylesheet" type="text/css"/>
+ </head>
+ <body onload="onPageLoad()">
+  <main class="d-flex justify-content-center flex-column stretch">
+   <div id="webgl-unavailable">
+    <p>
+     Your browser does not support WebGL, which is required for this experiment.
+    </p>
+    <p>
+     😕
+    </p>
+    <p>
+     Please try another browser or another computer.
+    </p>
+   </div>
+   <div id="osweb_loading">
+    <p>
+     ⏳
+    </p>
+   </div>
+   <div class="osweb-canvas-container">
+    <div class="aspectwrapper" id="osweb_div">
+    </div>
+   </div>
+  </main>
+  <div id="modal">
+   <div class="box">
+    <div class="content">
+     <div class="icon">
+      <div class="lds-ripple">
+       <div>
+       </div>
+       <div>
+       </div>
+      </div>
+      <div class="error">
+       <img src="img/warning.png"/>
+      </div>
+     </div>
+     <div class="text">
+      <div class="title">
+      </div>
+      <div class="message">
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div id="filePool" style="display:none;">
+  </div>
+ </body>
+</html>
